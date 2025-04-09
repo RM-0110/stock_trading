@@ -18,6 +18,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 from datetime import datetime
 import pytz
+import os
 from typing import Optional
 
 # Config values
@@ -25,7 +26,7 @@ etfs = config["etfs"]
 period = config["period"]
 interval = config["interval"]
 rsi_length = config["rsi_length"]
-auth_json = config["auth_json"]
+auth_json = os.getenv('GOOGLE_AUTH_JSON')
 sheet_url = config["sheet_url"]
 
 # Fetch RSI
