@@ -8,8 +8,8 @@ with open("config.json") as f:
     config = json.load(f)
 
 # Install dependencies
-# for package in config.get("dependencies", []):
-#     subprocess.run([sys.executable, "-m", "pip", "install", package, "--quiet"])
+for package in config.get("dependencies", []):
+    subprocess.run([sys.executable, "-m", "pip", "install", package, "--quiet"])
 
 import yfinance as yf
 import pandas_ta as ta
