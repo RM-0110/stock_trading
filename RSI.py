@@ -26,7 +26,7 @@ etfs = config["etfs"]
 period = config["period"]
 interval = config["interval"]
 rsi_length = config["rsi_length"]
-auth_json = os.getenv('GOOGLE_AUTH_JSON')
+auth_json = config["auth_json"]
 sheet_url = config["sheet_url"]
 
 # Fetch RSI
