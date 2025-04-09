@@ -16,18 +16,5 @@
     "period": "15d",
     "interval": "1h",
     "rsi_length": 14,
-    "auth_json": {
-      "type": "service_account",
-      "project_id": "sheet-read-441605",
-      "private_key_id": "925814a1b04de52b38d68bdd76ccf03a23448908",
-      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChFqjmqKQDq65u\nuTCaruCeRlBHuDAs/vClzEhcciJP53Y8TwcZPNlpDVgdEpXA+WEsYOQxJE8o7Hjn\ns4Nbdepw57Z3NJZE1NJNVGsJCXCaFWy4lOST/+zZylswASBb9k02eizML11VyEYT\nWHVxuKWXdeWtk567bSVY+J8F4o5cRxsfXP5G6MTYDdsLDbl/gzObV+yxOiEjPKJA\nIduMb53HF8Ykxtngp5O7Wd5hS4jdHiZPWyC+UeyahtVdlbFeYreEdQYh4bQnmSsI\nNHStA30TAj0KHPac94/jRKWB7EjyHCzo6KZXYoO0uzCFyTZrGUOlHHYLqCxDfmi6\n8IHJr2frAgMBAAECggEAF8rAfHzY6J/hPgJFHvuIOmg5MDaQivzGbz56S4kh7zpI\n+MRVUJFvrPfnFTgq/Rr4ErVmzqlFtc4jV1loo8gJLc7TYMzYCueB/iDjRCzsQB28\n9pArKH7KrSoZiMAJ1vtMUSj/V9MBDovraa0Nf5PdhT7JAveEILuQohDqb9ST4SX1\na2G6h5Fc86FZ9HW0svlPmOYYYvzR2a6JYs3MwT+SynZiYnkpcDzbk9pXwNRQqRAG\nkRc7oSifOqhGriM/5NFLaquMScNt6+G8HYHHR/eDtrZTObfoZ1uB7vB0MU6PiLAP\nh3K33dIxpFA/qdz57MVxQTFpcIzbzF55tS09gSpGUQKBgQDLsTp+Ni11syfVNpZg\nT00zRyeYEUvakY//PWM1zQxjtfgaK4tgRxXNGIta9dm5lkxwKQ39l3o8zWmfwG1z\nzbHS0GIulIVKRIs+9QQ6gZfDEDYk6OjLzv0mtCNeJNhaJmg6q0XvhWKnrT4PuZ2a\n8x3bw/GMK7yQ5LTS9jl6bAmuGwKBgQDKdKZzLXGFC2viohRFdCDT+9ydwBKKJ+0q\nz3UzZmHxbW9BvLSlsNXlj5g2qgEyJCQyxJG/+dXP2S/zrqQUrOR1yG0OV+5VaIFM\n08hwZN7ZMy6jzG9/0ESrDanZ1kR7TjTR5SKer5Ah4/j05DiE9IcMda4TwWsWrShl\n11ynAZ2KcQKBgQCxq/SWlJFQoiXzj7rZZTK0sLMzrJqamu+ctqIsEqBk9RvlT+gx\n4a99h5Q+kkYI4LXp+5WNhqyEDrS8OO//3ALpHQUXFkuxfVpsXvICSnnjFufziAlP\nhUxBj01uV/szn165Fh5Zj+J+2dlRhBmaR8faou610oyXYjbr8QQv6b8D0wKBgBkR\nlqa+YscZofM/JIlxFruI/UlfRixrQzfA1n9V1xzg8xzNtASsP+AcBroGFP3TcdQD\neRSvZ+VDvGdNIa4ZtnRLLA3Rn4Zd2VzdAH3CT8HPT6AiqU/HRylzGKwLlxE5ntq6\np63EiXFY3DPeqoz0BmDplXOGyK7XJCBwKV3YmlxRAoGAIyEyZz62X8TqVVw0o/ow\nxpkn6Szf8Kh6XLHsXnOO58eJC5GOfcmBT+AW4jq4QtCoH+0isfSzIXMpMhSdX4vo\n9SgRTYyrdYbnJgtnVPH0uDBWAKrbJVFbx7Tp7yJ0fBwBpLMJyl3rQZedaxkFXNCE\nz3RSfuE2sxEDQmbLlyX2hVo=\n-----END PRIVATE KEY-----\n",
-      "client_email": "sheet-read@sheet-read-441605.iam.gserviceaccount.com",
-      "client_id": "109735345456222654134",
-      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-      "token_uri": "https://oauth2.googleapis.com/token",
-      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheet-read%40sheet-read-441605.iam.gserviceaccount.com",
-      "universe_domain": "googleapis.com"
-    },
     "sheet_url": "https://docs.google.com/spreadsheets/d/1xbstO6taNodJC7U6FPeoG3hcsXsNZ73HXIbUH4esX3g/edit?usp=sharing"
   }
