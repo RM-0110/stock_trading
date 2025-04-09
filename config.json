@@ -1,33 +1,33 @@
 {
-    "dependencies": [
-      "yfinance",
-      "pandas_ta",
-      "pandas",
-      "gspread",
-      "google-auth",
-      "pytz",
-      "datetime"
-    ],
-    "etfs": {
-      "NIFTYBEES": "NIFTYBEES.NS",
-      "GOLDBEES": "GOLDBEES.NS",
-      "HDFCMID150": "HDFCMID150.NS"
-    },
-    "period": "15d",
-    "interval": "1h",
-    "rsi_length": 14,
-    "auth_json" : {
-      "type": "service_account",
-      "project_id": "sheet-read-441605",
-      "private_key_id": "c71f4a591a3081c58b8540906db1909867207367",
-      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjdm3UZL+R0DYh\nAm51kfb9l9oJVcJ92aQr9mMaA4Y52YCnluhxCA391PMXC88A1vH6DFcBGdwzsA5h\nqrCv4K5wWz4P+rOSioFrlYHk8LoP05fl7GtpyacU1LcdGTk6T1EKbl+I//+FSWKX\ncvPqt6w6uzcCm12FCK7sGoRMvCJoJxrepkF4cA6sVAp/m26swejB2D5ul3dSQ5Hy\nU1cRbH4wPsU1ohOywyi5+vNewCsFfQYyV3YbF8eEZ7AJMNzv3piOApvIOwqJ14hN\nW1hVNmCdqoDZjNogQJl8Ja9L04S9nr8xe9mX2Mhm9i3rDHSQDbVkrurwB1Q4Trah\n+D1Fty6FAgMBAAECggEAGYvXZ890AgOOhhOldDHi7iiGfpl8yyLRrb40qDrfRhi4\nKtjijFG0MBSRBivGBu1QxWGa0lT6jUhpQvnEYcRFNtGHrkMhv9fuGIR117QIfBM3\nRMtxUQffGRoSYRWRVEvTkEQGIbjSc//vTNh+BtN8MvSRyRJDaBhekA8n2H85iFm9\n4KLLcDZGXVUVhoHnSrx+bZhsdW7NrBrpW2nryoO7sy1lRtoPjkkgJMTdYK1gRL02\ni2FlIT4wq5hie9g0Ga0nvi5SDpBlA1OefvEopjnkkdwDubrMjAvwYsnALe/vc1lz\n2+9tpCwW2C1efrYrHHtMEIDZrDF7GzNtV0LV8tDtyQKBgQDj6Q0Rw/j4cWCqtZP9\nSks+AN5/LP0K7Dt331T9lFXNbYUSRIiokm2Bagb1LrVhJgCXO4o+tSJqgJueoSGk\nvklTCIyeE+CLmTiA2CoMao/AeWiayFijpJUtcXSTnMX6bWS7xw1QieeTBuVHKK7C\njUi47uHAKwmK6cXRbaUuh+Ty2QKBgQC3m/HtcCZdew5/LHpcNFw7MEeih1ZsWdHa\nKugGO8ibx62b6mk8Byq1YW/BfMml4l+WxZBfjgRDIdOgeb6gR7JkZl9VdPTFxNI/\nUA8yDNeh5CT3Jq4MQjuKxE9kloyVfCz2A+dDX55WuuJtEktak4cHpnL56qkVwRI9\nNitsbfq1jQKBgQDUMfXjJo0184nHJwxEddmcPv7pdZ+bfdrYfu0ItAU3INMW8Qwz\ntzGRnoAf438ollNSezL5s3f5pQg/J1LFqg1m67zQqT0VfHDpNVng+Y4h7GgCRKqS\noffquYmKrhp+UT/KvUeeRud/MppiKHSd2yFsXa1+WBOobIOru+RhcFEv8QKBgDWg\n4OrfJPWM6dEPZrXjvUS0d1fre7yuB3NXsOmRMKj/i5/MuewEk97ilMfI8QT4t77L\n+b1PN8N779ohdSJPjrVwiUvmm0/giyBe+/E8ewcYIgvmSlPeTJHdgOr6ZhmLaX55\n6WRuW0stztDY1RWhnYEIhvCkL7rg57jlR42mGeJJAoGBAIoIf8T1aLI57VslAa54\nA3VNxt9epeKRMHZxaAij56/M6mXJSzTf6KdvFC24JXxqccfo6BRObgDbrJS+2Ab3\n4aT7aLyAGbiIrzVsSxU+jrUAnm+mneFOYcWIm4QQ2McbYAmakTVGsAL5214tDIJG\n88vDYUjkYlct3aK3xdwC3mw8\n-----END PRIVATE KEY-----\n",
-      "client_email": "sheet-read@sheet-read-441605.iam.gserviceaccount.com",
-      "client_id": "109735345456222654134",
-      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-      "token_uri": "https://oauth2.googleapis.com/token",
-      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheet-read%40sheet-read-441605.iam.gserviceaccount.com",
-      "universe_domain": "googleapis.com"
-    },
-    "sheet_url": "https://docs.google.com/spreadsheets/d/1xbstO6taNodJC7U6FPeoG3hcsXsNZ73HXIbUH4esX3g/edit?usp=sharing"
-  }  
+  "dependencies": [
+    "yfinance",
+    "pandas_ta",
+    "pandas",
+    "gspread",
+    "google-auth",
+    "pytz",
+    "datetime"
+  ],
+  "etfs": {
+    "NIFTYBEES": "NIFTYBEES.NS",
+    "GOLDBEES": "GOLDBEES.NS",
+    "HDFCMID150": "HDFCMID150.NS"
+  },
+  "period": "15d",
+  "interval": "1h",
+  "rsi_length": 14,
+  "auth_json": {
+    "type": "service_account",
+    "project_id": "sheet-read-441605",
+    "private_key_id": "c71f4a591a3081c58b8540906db1909867207367",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjdm3UZL+R0DYh\nAm51kfb9l9oJVcJ92aQr9mMaA4Y52YCnluhxCA391PMXC88A1vH6DFcBGdwzsA5h\nqrCv4K5wWz4P+rOSioFrlYHk8LoP05fl7GtpyacU1LcdGTk6T1EKbl+I//+FSWKX\ncvPqt6w6uzcCm12FCK7sGoRMvCJoJxrepkF4cA6sVAp/m26swejB2D5ul3dSQ5Hy\nU1cRbH4wPsU1ohOywyi5+vNewCsFfQYyV3YbF8eEZ7AJMNzv3piOApvIOwqJ14hN\nW1hVNmCdqoDZjNogQJl8Ja9L04S9nr8xe9mX2Mhm9i3rDHSQDbVkrurwB1Q4Trah\n+D1Fty6FAgMBAAECggEAGYvXZ890AgOOhhOldDHi7iiGfpl8yyLRrb40qDrfRhi4\nKtjijFG0MBSRBivGBu1QxWGa0lT6jUhpQvnEYcRFNtGHrkMhv9fuGIR117QIfBM3\nRMtxUQffGRoSYRWRVEvTkEQGIbjSc//vTNh+BtN8MvSRyRJDaBhekA8n2H85iFm9\n4KLLcDZGXVUVhoHnSrx+bZhsdW7NrBrpW2nryoO7sy1lRtoPjkkgJMTdYK1gRL02\ni2FlIT4wq5hie9g0Ga0nvi5SDpBlA1OefvEopjnkkdwDubrMjAvwYsnALe/vc1lz\n2+9tpCwW2C1efrYrHHtMEIDZrDF7GzNtV0LV8tDtyQKBgQDj6Q0Rw/j4cWCqtZP9\nSks+AN5/LP0K7Dt331T9lFXNbYUSRIiokm2Bagb1LrVhJgCXO4o+tSJqgJueoSGk\nvklTCIyeE+CLmTiA2CoMao/AeWiayFijpJUtcXSTnMX6bWS7xw1QieeTBuVHKK7C\njUi47uHAKwmK6cXRbaUuh+Ty2QKBgQC3m/HtcCZdew5/LHpcNFw7MEeih1ZsWdHa\nKugGO8ibx62b6mk8Byq1YW/BfMml4l+WxZBfjgRDIdOgeb6gR7JkZl9VdPTFxNI/\nUA8yDNeh5CT3Jq4MQjuKxE9kloyVfCz2A+dDX55WuuJtEktak4cHpnL56qkVwRI9\nNitsbfq1jQKBgQDUMfXjJo0184nHJwxEddmcPv7pdZ+bfdrYfu0ItAU3INMW8Qwz\ntzGRnoAf438ollNSezL5s3f5pQg/J1LFqg1m67zQqT0VfHDpNVng+Y4h7GgCRKqS\noffquYmKrhp+UT/KvUeeRud/MppiKHSd2yFsXa1+WBOobIOru+RhcFEv8QKBgDWg\n4OrfJPWM6dEPZrXjvUS0d1fre7yuB3NXsOmRMKj/i5/MuewEk97ilMfI8QT4t77L\n+b1PN8N779ohdSJPjrVwiUvmm0/giyBe+/E8ewcYIgvmSlPeTJHdgOr6ZhmLaX55\n6WRuW0stztDY1RWhnYEIhvCkL7rg57jlR42mGeJJAoGBAIoIf8T1aLI57VslAa54\nA3VNxt9epeKRMHZxaAij56/M6mXJSzTf6KdvFC24JXxqccfo6BRObgDbrJS+2Ab3\n4aT7aLyAGbiIrzVsSxU+jrUAnm+mneFOYcWIm4QQ2McbYAmakTVGsAL5214tDIJG\n88vDYUjkYlct3aK3xdwC3mw8\n-----END PRIVATE KEY-----",
+    "client_email": "sheet-read@sheet-read-441605.iam.gserviceaccount.com",
+    "client_id": "109735345456222654134",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheet-read%40sheet-read-441605.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  },
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1xbstO6taNodJC7U6FPeoG3hcsXsNZ73HXIbUH4esX3g/edit?usp=sharing"
+}
