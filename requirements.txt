@@ -5,3 +5,4 @@ google-auth
 yfinance
 pytz
 datetime
+numpy==1.24.4
