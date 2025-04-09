@@ -28,3 +28,6 @@ jobs:
     - name: Run RSI script
       run: |
         python RSI.py
+      env: 
+        auth_json: ${{ secrets.auth_json }}
+      
