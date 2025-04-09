@@ -29,5 +29,4 @@ jobs:
       env:
         GOOGLE_AUTH_JSON: ${{ secrets.GOOGLE_AUTH_JSON }}
       run: |
-        echo "$GOOGLE_AUTH_JSON" > auth.json
         python RSI.py
