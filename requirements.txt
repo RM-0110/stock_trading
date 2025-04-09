@@ -1,0 +1,7 @@
+pandas
+pandas_ta
+gspread
+google-auth
+yfinance
+pytz
+datetime
