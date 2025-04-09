@@ -1,8 +1,8 @@
-pandas
+pandas==2.2.3
 git+https://github.com/twopirllc/pandas-ta.git
 gspread
 google-auth
 yfinance
 pytz
-datetime
-numpy==1.24.4 --only-binary :all:
+DateTime
+numpy==1.26.4
