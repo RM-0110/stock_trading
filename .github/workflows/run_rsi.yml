@@ -26,7 +26,5 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run RSI script
-      env:
-        GOOGLE_AUTH_JSON: ${{ secrets.GOOGLE_AUTH_JSON }}
       run: |
         python RSI.py
