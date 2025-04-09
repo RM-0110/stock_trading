@@ -29,5 +29,5 @@ jobs:
       run: |
         python RSI.py
       env: 
-        auth_json: ${{ secrets.auth_json }}
+        auth_json: ${{ secrets.AUTH_JSON }}
       
